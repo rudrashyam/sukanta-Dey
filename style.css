@@ -763,6 +763,11 @@ h1, h2, h3, h4, h5, h6, p{
 /*************** extra small sized screen ******************/
 
 @media screen and (max-width: 500px){
+    
+    #map{
+    width: 340px;
+    height: 450px;
+}
     /* overall styling */
     .header{
         padding-bottom: 30px;
