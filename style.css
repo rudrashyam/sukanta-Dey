@@ -73,20 +73,20 @@ h1, h2, h3, h4, h5, h6, p{
 
 .header{
     min-height: 100vh;
-     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../profile/header.jpg") center/cover no-repeat;
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("header.jpg") center/cover no-repeat;
  
      color: #fff;
     }
 
     .gallery-img{
         min-height: 100vh;
-     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../instagram-2/instagram-2.jpg") center/cover no-repeat;
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("instagram-2.jpg") center/cover no-repeat;
  
      color: #fff;
     }
     .nature{
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Nature/nature.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("nature.jpg") center/cover no-repeat;
     
         color: #fff;
     }
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6, p{
 
     .animal{
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../innocent-creature/animal.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("animal.jpg") center/cover no-repeat;
     
         color: #fff;
     }
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p{
 
     .story{
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../story/story-1/img.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img.jpg") center/cover no-repeat;
     
         color: #fff;
     }
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6, p{
 
  .climate{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../climate/climate.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("climate.jpg") center/cover no-repeat;
 
     color: #fff;
  }
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .contact{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../contact/contact.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("contact.jpg") center/cover no-repeat;
 
     color: #fff;
 }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .blog-img{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../blog/header.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("header-2.jpg") center/cover no-repeat;
 
     color: #fff;
 }
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .sec-one-left{
     height: 100vh;
-    background:url("../instagram-1/instagram-2.jpg") center/cover no-repeat;
+    background:url("instagram-2.jpg") center/cover no-repeat;
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6, p{
     grid-column-gap: 20px;
 }
 .work-img-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../profile/header.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("header.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 
@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .work-img-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../profile/header.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("header.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 
