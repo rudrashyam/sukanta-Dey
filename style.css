@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, p{
     height: 100%;
    z-index: -3;
     object-fit: cover;
-    opacity: 1.1;
+   
 }
 .overlay{
 
