@@ -69,6 +69,108 @@ h1, h2, h3, h4, h5, h6, p{
 
 /**************** end of Utility Classes *******************/
 
+
+.ditals{
+   text-align: center;
+}
+
+.blog-text-all {
+
+    margin-top: 52px;
+    font-size: 16px;
+ 
+}
+/*********************************** catagories section styling start **********************************/
+
+
+.catagore-heading{
+
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid var(--darkGreen);
+    color:#86c232 ;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 20px;
+    cursor:default;
+    -webkit-box-shadow: 0 0 8px #000;
+    
+}
+.catagore-all ul li {
+    position: relative;
+   
+    display: inline-flex;
+    padding: 6px 25px;
+    margin: 9px 5px;
+    cursor: pointer;
+    border: 2px solid var(--darkGreen);
+    border-radius: 6px;
+    transition: var(--transition);
+    background: transparent;
+    -webkit-box-shadow: 0 0 8px #000;
+
+}
+.catagore-all ul li:hover{
+    background: var(--darkGreen);
+    color: white !important;
+}
+
+.catagore-all  ul li a:hover{
+    color: white !important;
+}
+
+.catagore-all{
+    padding-left: 20px;
+
+}
+.catagore-all  ul li a{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 8px 9px;
+
+    background:none ;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************** catagories section styling end *******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********************** Header styling *********************/
 
 #video{
@@ -161,6 +263,56 @@ h1, h2, h3, h4, h5, h6, p{
 
     color: #fff;
 }
+
+
+
+
+.Business-tricks-1{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Business-tricks-1.jpg") center/cover no-repeat;
+
+    color: #fff;
+}
+
+.Business-tricks-2{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Business-tricks-2.jpg") center/cover no-repeat;
+
+    color: #fff;
+}
+
+
+
+.Business-tricks-3{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Business-tricks-3.jpg") center/cover no-repeat;
+
+    color: #fff;
+}
+
+.Business-tricks-4{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Business-tricks-4.jpg") center/cover no-repeat;
+
+    color: #fff;
+}
+
+
+.Business-tricks-5{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Business-tricks-5.jpg") center/cover no-repeat;
+
+    color: #fff;
+}
+
+
+.Business-tricks-6{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Business-tricks-6.jpg") center/cover no-repeat;
+
+    color: #fff;
+}
+
 
 
 
