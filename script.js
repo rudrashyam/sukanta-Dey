@@ -20,3 +20,16 @@ showBtn.addEventListener('click', function(){
 
 var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
 
+
+
+ //  typing animation script
+
+
+         var type = new Typed(".typing", {
+
+            strings: ["Photographer || Traveler", " Bloger"],
+            typeSpeed: 120,
+            backSpeed:60,
+            loop: true
+
+         });
