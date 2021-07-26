@@ -10,7 +10,9 @@
         <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        
+         <div id="preloader">
+
+    </div>
            <!-- header -->
 
     <header class="blog-img">
@@ -374,5 +376,11 @@
         
 
         <script src="script.js"></script>
+         <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display ="none";
+        });
+    </script>
     </body>
 </html>
