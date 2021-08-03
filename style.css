@@ -553,7 +553,7 @@ h1, h2, h3, h4, h5, h6, p{
     grid-column-gap: 20px;
 }
 .work-img-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("photo-1.jpg") center/cover no-repeat;
+    background:  url("photo-1.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 
@@ -562,7 +562,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .work-img-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("photo-2.jpg") center/cover no-repeat;
+    background:url("photo-2.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 
