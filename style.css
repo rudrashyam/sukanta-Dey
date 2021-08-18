@@ -529,11 +529,11 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .sec-one-left div h3{
     font-size: 28px;
-    opacity: 0.9;
+    opacity: 1;
 }
 .sec-one-left div p{
     font-weight: 300;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .sec-one-right h3{
     color: var(--lightGrey);
