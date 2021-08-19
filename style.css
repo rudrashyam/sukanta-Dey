@@ -80,6 +80,40 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 16px;
  
 }
+
+.contact-li{
+    align-items: center;
+
+    display: flex;}
+
+
+.contact-a{
+    
+    font-size: 18px;
+width: 164px;
+background: #86c232;
+padding: 14px;
+border-radius: 2px 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+    margin: -12px 39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*********************************** catagories section styling start **********************************/
 
 
