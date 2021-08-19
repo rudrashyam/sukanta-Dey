@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6, p{
 
     .gallery-img{
         min-height: 100vh;
-     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("instagram-2.jpg") center/cover no-repeat;
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("gallery.jpg") center/cover no-repeat;
  
      color: #fff;
     }
