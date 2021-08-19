@@ -13,6 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    
+    
 </head>
 
 <body>
@@ -31,7 +36,7 @@
         
         <div class=" nav-section">
             <div class="brand-and-navBtn">
-                <span class="brand-name">
+                <span class="brand-name"  data-aos="flip-left" data-aos-offset="200" data-aos-duration="1000">
                     <a href="https://www.facebook.com/suvrography"> <div style=" width:217px;
             background:#463d3db0;
 border-radius: 8px;
@@ -68,7 +73,7 @@ text-align: center;
         <div class="container about">
             <div class="about-content">
 
-                <div class="about-img flex">
+                <div class="about-img flex" data-aos="flip-up"  data-aos-offset="100" data-aos-duration="2000">
                   <img src="profile.jpg" alt="photographar img" > 
                 </div>
                 <h2>I'm Sukanta Dey</h2>
@@ -101,7 +106,7 @@ text-align: center;
 
         <div class="container">
 
-            <div class="sec-one-left">
+            <div class="sec-one-left" data-aos="fade-up-right"  data-aos-offset="200" data-aos-duration="1000">
 
                 <!-- image here -->
                 <div>
@@ -121,8 +126,8 @@ text-align: center;
                 </div>
             </div>
 
-            <div class="sec-one-right">
-                <div class="work-content">
+            <div class="sec-one-right" >
+                <div class="work-content"  data-aos="fade-up-left"  data-aos-offset="300" data-aos-duration="1000">
                     <h3>AMAZING TEAM WORK WITH PROFESSIONAL PHOTOGRAPHER</h3>
                     <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis adipisci earum consequatur in odit
                         reprehenderit magnam culpa minima. Ratione, maiores!</P>
@@ -130,12 +135,12 @@ text-align: center;
                 </div>
 
                 <div class="work-imgs">
-                    <div class="work-img-1">
+                    <div class="work-img-1"  data-aos="fade-up"  data-aos-offset="300" data-aos-duration="700">
 
                         <!-- image here -->
 
                     </div>
-                    <div class="work-img-2">
+                    <div class="work-img-2" data-aos="fade-down"  data-aos-offset="300" data-aos-duration="700">
                         <!-- image here -->
                     </div>
 
@@ -149,11 +154,11 @@ text-align: center;
 
     <section class="section-two">
         <div class="container">
-            <h2>FOLLOW ON INSTAGRAM</h2>
-        <a href="https://www.instagram.com/suvrography/"> <span>suvrography || শুভ্রগ্রাফি  </span> </a>
+            <h2  data-aos="fade-right"  data-aos-offset="100" data-aos-duration="1000">FOLLOW ON INSTAGRAM</h2>
+        <a href="https://www.instagram.com/suvrography/"> <span data-aos="fade-left"  data-aos-offset="100" data-aos-duration="1000">suvrography || শুভ্রগ্রাফি  </span> </a>
 
             <div class="insta-imgs">
-                <div>
+                <div data-aos="flip-right"  data-aos-offset="300" data-aos-duration="1000">
                    <a href="https://www.instagram.com/suvrography/">  <img src="instagram-1.jpg" > </a>
                     <div class="icon-overlay flex">
                         <i class="fab fa-instagram"></i>
@@ -161,7 +166,7 @@ text-align: center;
                 </div>
 
 
-                <div>
+                <div data-aos="flip-right"  data-aos-offset="300" data-aos-duration="1000">
                   <a href="https://www.instagram.com/suvrography/">   <img src="instagram-2.jpg" > </a>
                     <div class="icon-overlay flex">
                         <i class="fab fa-instagram"></i>
@@ -169,7 +174,7 @@ text-align: center;
                 </div>
 
 
-                <div>
+                <div data-aos="flip-right"  data-aos-offset="300" data-aos-duration="1000">
                     <a href="https://www.instagram.com/suvrography/"> <img src="instagram-3.jpg"> </a>
                     <div class="icon-overlay flex">
                         <i class="fab fa-instagram"></i>
@@ -179,7 +184,7 @@ text-align: center;
 
 
 
-                <div>
+                <div data-aos="flip-right"  data-aos-offset="300" data-aos-duration="1000">
                   <a href="https://www.instagram.com/suvrography/">   <img src="instagram-4.jpg"> </a>
                     <div class="icon-overlay flex">
                         <i class="fab fa-instagram"></i>
@@ -201,7 +206,8 @@ text-align: center;
 
         <div class="footer-container container">
             <div>
-                <h2>Suvrography</h2>
+                 <h2 style="display: flex;justify-content: center;"> <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">Suvro</div><div
+                        data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">graphy</div></h2>
                 <p>We all know that photography is a technical subject – filled with its own language, vocabulary and
                     jargon.
 
@@ -218,7 +224,9 @@ text-align: center;
                     course, it should be noted that this article is not entirely serious!</p>
 
 
-                    <form action="https://formspree.io/f/mvodbpbr" method="POST">
+                    <form action="https://formspree.io/f/mvodbpbr" method="POST" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" >
                     
                         <div class="subs">
                         <i class="fas fa-envelope"></i>
@@ -241,6 +249,16 @@ text-align: center;
             loader.style.display ="none";
         });
     </script>
+    
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+    
+    
+    
+    
     
 </body>
 
