@@ -83,8 +83,9 @@ h1, h2, h3, h4, h5, h6, p{
 
 .contact-li{
     align-items: center;
-
-    display: flex;}
+    justify-content: center;
+    display: flex;
+    }
 
 
 .contact-a{
@@ -926,7 +927,7 @@ text-align: center;
         background: none;
     }
     .top-nav{
-        flex: 0 1 80%;
+        flex: 0 0 80%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
